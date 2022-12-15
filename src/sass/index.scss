@@ -1,15 +1,18 @@
+// Utils
+@import './utils/variables';
+@import './utils/v-hidden';
+@import './utils/decimals';
+@import './utils/mixins';
+@import './utils/placeholders';
+
 // Base
 
 @import './common';
 @import './base/base';
 @import './base/reset';
 
-// Utils
-
-@import './utils/variables';
-
 // Components
-
+@import './components/container';
 @import './components/header';
 @import './components/hero';
 @import './components/products';

@@ -2,3 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    font-family: var(--primary-font);
+    font-size: 14px;
+    letter-spacing: 0.04em;
+
+}

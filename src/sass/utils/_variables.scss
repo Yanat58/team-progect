@@ -4,7 +4,43 @@
     --additional-font: 'Seymour+One', sans-serif;
 
     // Colors
-    --primary-text-color: #FCFCFC;
-    --secondary-text-color: #131313;
+    --primary-text: #FCFCFC;
+    --secondary-text: #131313;
 
+    --accent: #F8D24E;
+
+    --primary-bg: #84A178;
+    --secondary-bg: #FCFCFC;
+    --additional-bg: #ffffff;
+
+    --first-prod-bg-: #AEC6A5;
+    --second-prod-bg: #EFD478;
+    --third-prod-bg: #D6936D;
+
+    --btn-bg: #F8D24E;
+    --btn-bg-hover: #0A8817;
+    --btn-bg-disabled: #ABABAB;
+
+   
+
+    // Gradients
+    --input-bg: rgba(248, 210, 78, 0.1);
+
+    --first-prod-gr: (0deg, rgba(156, 190, 143, 0.7), rgba(156, 190, 143, 0.7)),
+        #D9D9D9;
+    --second-prod-gr: (0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7)),
+        #D9D9D9;
+    --third-prod-gr: (0deg, rgba(213, 117, 63, 0.7), rgba(213, 117, 63, 0.7)),
+        #D9D9D9;
+
+    // Shadows
+
+    --prods-circles-shadow: 0px 5.26027px 19.726px rgba(153, 114, 23, 0.25);
+    --prod-cont-cards-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    --stats-shadow: 0px 6px 20px rgba(10, 136, 23, 0.25);
 }
+
+// breakepoints
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1200px;
