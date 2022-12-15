@@ -1,2 +1,22 @@
+// Base
+
 @import './common';
-@import './example';
+@import './base/base';
+@import './base/reset';
+
+// Utils
+
+@import './utils/variables';
+
+// Components
+
+@import './components/header';
+@import './components/hero';
+@import './components/products';
+@import './components/about';
+@import './components/advanteges';
+@import './components/galery';
+@import './components/customer-reviews';
+@import './components/contacts';
+@import './components/footer';
+@import './components/modal-window';
