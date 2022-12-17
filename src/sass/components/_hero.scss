@@ -284,17 +284,17 @@
     }
 }
 
-.hero_image-dots {
+.hero_image-drops {
     position: absolute;
     top: 400px;
     left: 0;
     
     
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: 768px) {
         top: 340px;
     }
 
-    @media screen and (min-width: $desktop) {
+    @media screen and (min-width: 1200px) {
         top: 209px;
     }
 }
