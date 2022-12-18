@@ -67,16 +67,9 @@
 }
 
 .footer-container {
-  padding-top: 40px;
-
   @media screen and (min-width: $tablet) {
     display: flex;
-    padding-top: 32px;
     justify-content: space-between;
-  }
-
-  @media screen and (min-width: $desktop) {
-    padding-top: 60px;
   }
 }
 
