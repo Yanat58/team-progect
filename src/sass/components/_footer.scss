@@ -67,21 +67,15 @@
 }
 
 .footer-container {
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 40px;
 
   @media screen and (min-width: $tablet) {
     display: flex;
-    padding-left: 33px;
-    padding-right: 32px;
     padding-top: 32px;
     justify-content: space-between;
   }
 
   @media screen and (min-width: $desktop) {
-    padding-left: 16px;
-    padding-right: 16px;
     padding-top: 60px;
   }
 }
@@ -118,6 +112,7 @@
 }
 
 .footer-wrap {
+  padding-bottom: 40px;
   text-align: right;
 
   font-weight: 700;
@@ -163,9 +158,6 @@
     margin: 0 16px;
   }
 
-  &__text--uppercase {
-    text-transform: uppercase;
-  }
   &__text--capitalize {
     text-transform: capitalize;
   }

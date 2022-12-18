@@ -15,15 +15,14 @@
   }
 
   @media screen and (min-width: $desktop) {
-    justify-content: space-between;
+    // justify-content: space-between;
   }
 }
 
 .site-nav {
   display: flex;
-
+  margin-left: 308px;
   @include fonts(16, 20, 700);
-
   @media screen and (max-width: 1199px) {
     display: none;
   }
@@ -81,6 +80,10 @@ margin-left: 32px;
   @media screen and (max-width: 767px) {
       display: none;
   }
+
+    @media screen and (min-width: $desktop) {
+      margin-left: auto;
+    }
 }
 
 .button__icon {
