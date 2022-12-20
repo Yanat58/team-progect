@@ -3,7 +3,7 @@
     to bottom,
     rgba(132, 161, 120, 0) 24%,
     #84a178 24%,
-    #84a178 70%
+    #84a178 77%
   );
 
   @media screen and (min-width: $tablet) {
@@ -19,7 +19,7 @@
         to bottom,
         rgba(132, 161, 120, 0) 16%,
         #84a178 16%,
-        #84a178 70%
+        #84a178 85%
       );
     }
   }
@@ -39,6 +39,7 @@
       gap: 32px;
     }
   }
+
   &__item {
     display: block;
     width: 280px;
@@ -114,6 +115,18 @@
       width: 148px;
     }
   }
+
+  &__text--none {
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  &__text--hidden {
+    @media screen and (min-width: $tablet) {
+      display: none;
+    }
+  }
 }
 
 .location {
@@ -152,6 +165,18 @@
 
   &__text--color {
     color: var(--third-prod-bg);
+  }
+
+  &__text--none {
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  &__text--hidden {
+    @media screen and (min-width: $tablet) {
+      display: none;
+    }
   }
 }
 
